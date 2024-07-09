@@ -27,13 +27,13 @@ function Copywrite() {
         </strong>{" "}
         for your <strong>business.</strong>
       </h2>
-      <p className="text-[1.6rem] leading-[2.8rem] tracking-[.009rem] text-slate tablet:max-w-[40ch] desktop:max-w-[35ch] desktop:text-[1.8rem] desktop:leading-[3.2rem] desktop:tracking-[0.01rem]">
+      <p className="max-w-[40ch] text-[1.6rem] leading-[2.8rem] tracking-[.009rem] text-slate desktop:max-w-[35ch] desktop:text-[1.8rem] desktop:leading-[3.2rem] desktop:tracking-[0.01rem]">
         Our marketing and sales automations help you scale your outreach to get
         more leads for your company.
       </p>
       <button
         type="button"
-        className="self-start rounded-[.6rem] bg-midnight px-[3.2rem] py-[1.6rem] text-[1.8rem] font-bold leading-[3.2rem] -tracking-[.018rem] text-linen"
+        className="self-start rounded-[.6rem] bg-midnight px-[3.2rem] py-[1.6rem] text-[1.8rem] font-bold -tracking-[.018rem] text-linen hover:bg-gradient-to-br hover:from-lavender hover:via-magenta hover:to-sunset"
       >
         Request Beta Access
       </button>
@@ -43,7 +43,7 @@ function Copywrite() {
 
 function Illustration() {
   return (
-    <picture className="tablet:absolute tablet:right-0 tablet:top-[4rem] tablet:-z-10 tablet:w-[28.1rem] desktop:right-[28.5rem] desktop:w-[35rem]">
+    <picture className="tablet:absolute tablet:right-0 tablet:top-[4rem] tablet:-z-10 tablet:w-[28.1rem] desktop:right-[28.5rem] desktop:w-[35rem] [&>img]:w-full">
       <source
         srcSet="./image-hero-portrait@2x.webp 2x, ./image-hero-portrait.webp 1x"
         type="image/webp"
