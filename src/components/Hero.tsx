@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 export default function Hero() {
   return (
-    <section className="wrapper isolate flex flex-col gap-y-[5.6rem] pt-24 tablet:relative tablet:gap-y-[12.8rem] tablet:pt-[12.8rem] desktop:flex-row desktop:gap-[0_28.5rem] desktop:pt-[12rem]">
+    <section className="wrapper isolate flex flex-col gap-y-[5.6rem] px-[1.6rem] pt-24 tablet:relative tablet:gap-y-[12.8rem] tablet:px-0 tablet:pt-[12.8rem] desktop:flex-row desktop:gap-[0_28.5rem] desktop:pt-[12rem]">
       <Copywrite />
       <Illustration />
       <DataList />

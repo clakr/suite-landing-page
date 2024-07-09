@@ -1,6 +1,6 @@
 export default function CMO() {
   return (
-    <section className="tablet:wrapper mt-[23.7rem] flex flex-col items-center gap-y-16 rounded-[1.5rem] bg-midnight px-[1.6rem] pb-[6.4rem] tablet:mt-[27.3rem] tablet:px-[5.8rem] desktop:relative desktop:flex-row desktop:justify-end desktop:gap-x-[5.3rem] desktop:p-[8.8rem_12.5rem]">
+    <section className="tablet:wrapper mt-[23.7rem] flex flex-col items-center gap-y-16 rounded-[1.5rem] bg-midnight px-[1.6rem] pb-[6.4rem] tablet:mt-[27.3rem] tablet:px-[5.8rem] desktop:relative desktop:mt-[29.1rem] desktop:flex-row desktop:justify-end desktop:gap-x-[5.3rem] desktop:p-[8.8rem_12.5rem]">
       <div className="relative bottom-0 -mt-[18.1rem] desktop:absolute desktop:left-[11.2rem] desktop:mt-0 desktop:h-[60rem] desktop:w-[37.5rem]">
         <picture className="relative z-10 desktop:block desktop:h-full desktop:w-full desktop:[&>img]:h-full">
           <source

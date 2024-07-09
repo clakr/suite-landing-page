@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="wrapper flex items-center justify-between py-[2.4rem] tablet:py-16 desktop:py-20">
+    <header className="wrapper flex items-center justify-between px-[1.6rem] py-[2.4rem] tablet:px-0 tablet:py-16 desktop:py-20">
       <img src="./logo.svg" alt="" />
       <button
         type="button"
