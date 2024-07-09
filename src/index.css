@@ -6,6 +6,12 @@
   font-size: 10px;
 }
 
+@layer base {
+  body {
+    @apply bg-linen;
+  }
+}
+
 @layer utilities {
   .wrapper {
     @apply tablet:mx-auto tablet:max-w-[68.9rem] desktop:max-w-[111rem];
