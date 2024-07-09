@@ -8,6 +8,6 @@
 
 @layer utilities {
   .wrapper {
-    @apply px-[1.6rem] tablet:mx-auto tablet:max-w-[68.9rem] tablet:px-0 desktop:max-w-[111rem];
+    @apply tablet:mx-auto tablet:max-w-[68.9rem] desktop:max-w-[111rem];
   }
 }

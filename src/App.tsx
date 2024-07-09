@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Marketing from "./components/Marketing";
+import CMO from "./components/CMO";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <>
       <Header />
       <Hero />
-      <Marketing />
+      <CMO />
       <Footer />
     </>
   );
