@@ -4,6 +4,16 @@ export default function CMO() {
       <div className="relative bottom-0 -mt-[18.1rem] desktop:absolute desktop:left-[11.2rem] desktop:mt-0 desktop:h-[60rem] desktop:w-[37.5rem]">
         <picture className="relative z-10 desktop:block desktop:h-full desktop:w-full desktop:[&>img]:h-full">
           <source
+            srcSet="./image-jeremy-large@2x.webp 2x, ./image-jeremy-large.webp 1x"
+            type="image/webp"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcSet="./image-jeremy-large@2x.png 2x, ./image-jeremy-large.png 1x"
+            type="image/png"
+            media="(min-width: 1440px)"
+          />
+          <source
             srcSet="./image-jeremy-small@2x.webp 2x, ./image-jeremy-small.webp 1x"
             type="image/webp"
           />
