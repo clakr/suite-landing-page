@@ -8,12 +8,15 @@ export default function Footer() {
         </p>
         <div className="flex justify-between gap-x-[2.8rem]">
           <a href="#" className="hover:opacity-50">
+            <span className="sr-only">Facebook</span>
             <img src="./icon-facebook.svg" alt="" />
           </a>
           <a href="#" className="hover:opacity-50">
+            <span className="sr-only">Instagram</span>
             <img src="./icon-instagram.svg" alt="" />
           </a>
           <a href="#" className="hover:opacity-50">
+            <span className="sr-only">Twitter</span>
             <img src="./icon-twitter.svg" alt="" />
           </a>
         </div>
